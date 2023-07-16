@@ -3,5 +3,5 @@
 
 https://github.com/8ecomeDreamer/java_road.git
 
-![Image](https://github.com/8ecomeDreamer/java_road/images/java学习路线.png)
+![Image](./images/java学习路线.png)
 
