@@ -1,7 +1,9 @@
 # java_road
-本仓库基于鱼皮老哥的Java学习路线进行学习，以及作为自己查漏补缺知识点的一个过程。(借用一下老哥的思维导图~)
+本仓库作为本人的Java学习的一个过程，并且记录每日的学习进度。
 
-https://github.com/8ecomeDreamer/java_road.git
+（哪怕每日学习一点点也是进步，加油！）
 
-![Image](https://github.com/8ecomeDreamer/java_road/images/java学习路线.png)
+|  学习日期  |               学习内容               |
+| :--------: | :----------------------------------: |
+| 2023-07-17 | 了解Java的编译过程以及输出helloWorld |
 
