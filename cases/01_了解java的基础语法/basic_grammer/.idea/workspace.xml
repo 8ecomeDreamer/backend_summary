@@ -3,10 +3,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e172e368-f6e9-4ece-b924-a630ac6bc396" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/basic_grammer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/condition_statement/condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/method_statement/method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../00_了解Java的编译过程/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../00_了解Java的编译过程/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/variable/variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/variable/variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iterator/iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/variable/variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/iterator/iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/variable/variable.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +54,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="V:\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Sj09jOyAGl73KxcHJEVRFItcaQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,27 +69,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/work/workspace/frontEnd/messageBoard",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;V:/github/java_road/cases/01_了解java的基础语法/basic_grammer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.variable">
+}</component>
+  <component name="RunManager" selected="Application.method">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="condition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="condition_statement.condition" />
+      <module name="basic_grammer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="condition_statement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="iterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iterator.iterator" />
       <module name="basic_grammer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method_statement.method" />
+      <module name="basic_grammer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="method_statement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="type" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type.type" />
+      <module name="basic_grammer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="type.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,8 +161,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.variable" />
-        <item itemvalue="应用程序.iterator" />
+        <item itemvalue="Application.method" />
+        <item itemvalue="Application.condition" />
+        <item itemvalue="Application.type" />
+        <item itemvalue="Application.iterator" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +177,11 @@
       <option name="presentableId" value="Default" />
       <updated>1689644535456</updated>
       <workItem from="1689644536795" duration="8406000" />
+      <workItem from="1689680995707" duration="1068000" />
+      <workItem from="1689682216120" duration="1007000" />
+      <workItem from="1689683490004" duration="84000" />
+      <workItem from="1689683584474" duration="1218000" />
+      <workItem from="1690031570542" duration="6590000" />
     </task>
     <servers />
   </component>
