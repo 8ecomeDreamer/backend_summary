@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.CityMapper">
+    <resultMap id="CityMapper" type="com.example.demo.entity.City">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="city" jdbcType="VARCHAR" property="city" />
+        <result column="code" jdbcType="DOUBLE" property="code" />
+    </resultMap>
+    <!--查询城市信息-->
+    <select id="getCity" parameterType="int" resultType="com.example.demo.entity.City">
+        select * from tb_city where id = #{id}
+    </select>
+    <!--删除城市信息-->
+    <delete id="deleteCity" parameterType="int">
+        delete from tb_city where id=#{id}
+    </delete>
+    <!--返回所有用户信息-->
+
+    <!--插入城市信息-->
+    <insert id="saveCity" parameterType="com.example.demo.entity.City" >
+        insert into tb_city
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                id,
+            </if>
+            <if test="city != null" >
+                city,
+            </if>
+            <if test="code != null" >
+                code,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id,jdbcType=INTEGER},
+            </if>
+            <if test="city != null" >
+                #{city,jdbcType=VARCHAR},
+            </if>
+            <if test="code != null" >
+                #{code,jdbcType=DOUBLE},
+            </if>
+        </trim>
+    </insert>
+
+    <!--更改城市信息-->
+    <update id="updateCity" parameterType="com.example.demo.entity.City">
+        update tb_city
+        <set >
+            <if test="city != null" >
+                name = #{city,jdbcType=VARCHAR},
+            </if>
+            <if test="code != null" >
+                salary = #{code,jdbcType=DOUBLE},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>
